@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: 'arial black';
+}
+/*Menu superior*/
+.menuSuperior{
+    width: 100%;
+}
+.btn-cadastro1{
+    width: 50%;
+    background-color: orange;
+}
+.btn-cadastro2{
+    width: 50%;
+    background-color: red;
+}
+/*Rodape*/
+.corRodape{
+    background-color: orange;
+}
+/*Tela de cadastro*/
+.confJumCadastrar{
+    margin-top: 20px;
+    width: 100%;
+}
+.textInputConf{
+    color: black;
+}
+@media(max-width: 600px){
+    .confJumCadastrar h1{
+        font-size: 30px;
+    }
+}
+/*tela listar*/
+.confJumListar{
+    margin-top: 10px;
+    width: 100%;
+}
+@media(max-width: 600px){
+    .confJumListar h1{
+        font-size: 30px;
+    }
+}
+.confButtonPag{
+    margin-top: 20px;
+}
+/*confirmação de cadastro*/
+.confBtnMsg{
+    width: 100%;
+}
+/*cor paginação*/
+
+.confBtnPag{
+    margin-left: 1%;
+}
+/*Listar*/
+.confAlert{
+    width: 50%;
+}
+.fa-eye1{
+    margin-left: 95%;
+    color: black;
+}
